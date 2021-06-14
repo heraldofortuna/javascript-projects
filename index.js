@@ -32,8 +32,6 @@ const color = document.querySelector(".color");
 button.addEventListener("click", function () {
   // Get random number between 0 - 3:
   const randomNumber = getRandomNumber();
-  console.log(randomNumber);
-
   container.style.backgroundColor = colors[randomNumber];
   color.textContent = colors[randomNumber];
 });

@@ -1,7 +1,3 @@
-.color-flipper {
-  border: 1px solid green;
-}
-
 .color-flipper h2 {
   inline-size: 100%;
   background-color: var(--color-dark);

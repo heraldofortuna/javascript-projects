@@ -1,5 +1,4 @@
 .project-list {
-  border: 1px solid green;
   inline-size: 100%;
   text-align: center;
   display: flex;
@@ -8,9 +7,13 @@
 }
 
 .project-list li {
-  border: 1px solid blue;
-  background-color: royalblue;
+  border: 1px solid var(--color-gray-5);
+  background-color: var(--color-gray-2);
   inline-size: 100%;
+}
+
+.project-list li:hover {
+  background-color: var(--color-gray-3);
 }
 
 .project-list li a h3 {

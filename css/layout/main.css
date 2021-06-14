@@ -1,12 +1,12 @@
 main {
   background-color: var(--color-white);
+  min-block-size: 90vh;
   padding-block-start: 32px;
   padding-block-end: 32px;
 }
 
 .main-content {
   background-color: var(--color-white);
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
