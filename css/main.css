@@ -12,6 +12,7 @@
 @import url(./layout/menu.css);
 
 @import url(./pages/color-flipper.css);
+@import url(./pages/counter.css);
 
 @import url(./utils/utilities.css);
 @import url(./utils/variables.css);

@@ -1,0 +1,16 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.counter span {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.counter-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
