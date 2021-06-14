@@ -1,0 +1,19 @@
+.project-list {
+  border: 1px solid green;
+  inline-size: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-list li {
+  border: 1px solid blue;
+  background-color: royalblue;
+  inline-size: 100%;
+}
+
+.project-list li a h3 {
+  padding-block-start: 8px;
+  padding-block-end: 8px;
+}

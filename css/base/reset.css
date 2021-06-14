@@ -14,5 +14,4 @@ html {
 body {
   background-color: var(--color-white);
   font: var(--body1);
-  scroll-behavior: smooth;
 }
