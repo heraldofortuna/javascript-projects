@@ -1,20 +1,3 @@
-// Scroll effect for header section:
-
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("header").style.borderBottom =
-      "1px solid var(--color-dark)";
-  } else {
-    document.getElementById("header").style.borderBottom = "unset";
-  }
-}
-
-// Color Flipper:
-
 const colors = [
   "green",
   "red",
@@ -39,11 +22,3 @@ button.addEventListener("click", function () {
 function getRandomNumber() {
   return Math.floor(Math.random() * colors.length);
 }
-
-// Counter
-
-// Set initial count;
-let count = 0;
-// Select value and buttons;
-const value = document.getElementById("value");
-const buttons = document.querySelectorAll(".button");
